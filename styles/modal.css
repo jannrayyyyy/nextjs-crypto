@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modal {
+  @apply justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none;
+}
+
+.modal-container {
+  @apply bg-white bg-opacity-10 backdrop-blur-lg rounded-lg relative flex flex-col w-full outline-none focus:outline-none;
+}
